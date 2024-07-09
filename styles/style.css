@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font Family */
+/* font-family: "Azeret Mono", monospace; */
+
+/* Universal style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Banner Section Styles */
+
+#banner-section{
+  border-top: 2px dashed #0d13214d;
+  border-bottom: 2px dashed #0d13214d;
+  width: 1440px;
+  height: 652px;
+  margin: 0 auto;
+  background-image: url(/assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-section-content h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 62px;
+  margin-bottom: 24px;
+}
+
+.banner-section-content p{
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.banner-section-content img{
+  margin-top: 26px;
+  margin-bottom: 32px;
+}
+
+.contact-btn{
+  width: 208px;
+  height: 66px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  padding: 21px 24px;
+  color: rgb(255, 255, 255, 0.9);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.contact-btn:hover{
+  background-color: blueviolet;
+}
+/* Banner Style End */
+
+/* Why Web Development section styles */
+
+#why-web-development-section{
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  margin-top: 75px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+
+.why-web-development-container{
+  width: 946px;
+  height: 1285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.why-web-development-content-1{
+  width: 852px;
+  height: 165px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.why-web-development-content-1 h2{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.why-web-development-content-1 p{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.why-web-development-content-2{
+  width: 946px;
+  height: 336px;
+  margin-top: 48px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.why-web-development-content-2-left{
+  width: 65%;
+  height: 240px;
+  margin-right: 130px;
+}
+
+.web-development-content-header{
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.web-development-content-para{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-top: 13px;
+}
+
+.learn-more-btn{
+  box-sizing: border-box;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover{
+  background-color: lightgoldenrodyellow;
+}
+
+.why-web-development-content-2-right{
+  width: 45%;
+  height: 240px;
+}
+
+.why-web-development-content-3{
+  width: 946px;
+  height: 336px;
+  margin-top: 48px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.why-web-development-content-3-left{
+  width: 45%;
+}
+
+.why-web-development-content-3-right{
+  width: 50%;
+  margin-right: 40px;
+}
+
+.why-web-development-content-4{
+  width: 946px;
+  height: 336px;
+  margin-top: 48px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+.why-web-development-content-4-left{
+  width: 65%;
+  height: 230px;
+}
+
+
