@@ -16,7 +16,7 @@
 #banner-section{
   border-top: 2px dashed #0d13214d;
   border-bottom: 2px dashed #0d13214d;
-  max-width: 100%;
+  width: 100%;
   height: 652px;
   margin: 0 auto;
   background-image: url(../assets/Hero-bg.png);
